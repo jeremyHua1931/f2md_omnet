@@ -11,5 +11,5 @@ git submodule add -b main git@github.com:jeremyHua1931/simulte-f2md.git
 
 git submodule add -b main git@github.com:jeremyHua1931/veins-f2md.git
 
-git submodule add -b v3.6.6 git@github.com:jeremyHua1931/inet.git
+git submodule add -b inet-v3.6.6 git@github.com:jeremyHua1931/inet.git
 ```

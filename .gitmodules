@@ -1,0 +1,12 @@
+[submodule "inet"]
+	path = inet
+	url = git@github.com:jeremyHua1931/inet.git
+	branch = inet-v3.6.6
+[submodule "veins-f2md"]
+	path = veins-f2md
+	url = git@github.com:jeremyHua1931/veins-f2md.git
+	branch = main
+[submodule "simulte-f2md"]
+	path = simulte-f2md
+	url = git@github.com:jeremyHua1931/simulte-f2md.git
+	branch = main
