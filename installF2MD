@@ -261,6 +261,10 @@ then
     ./configure WITH_OSGEARTH=no WITH_OSG=no && make -j$(nproc)
 fi
 
+
+
+
+
 # Install F2MD
 cd ${INSTALL_DIR}/
 git clone --recurse-submodules https://github.com/josephkamel/F2MD.git
