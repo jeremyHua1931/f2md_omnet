@@ -15,7 +15,7 @@ if [[ $portsinuse == *"9999"* ]]
 fi
 
 PS3='Please chose a scenario: '
-options_net=("IRTSystemXScenario" "LuSTNanoScenario" "LuSTMiniScenario" "LuSTScenario" "UlmScenario")
+options_net=("LuSTNanoScenario" "IRTSystemXScenario"  "LuSTMiniScenario" "LuSTScenario" "UlmScenario")
 select opt_net in "${options_net[@]}"
 do
     case $opt_net in
@@ -78,7 +78,7 @@ done
 echo
 
 PS3='Please chose a simulation environnement: '
-options_sim=("Cmdenv" "Qtenv" )
+options_sim=("Qtenv" "Cmdenv"  )
 select opt_sim in "${options_sim[@]}"
 do
     case $opt_sim in
@@ -100,6 +100,13 @@ do
 done
 
 cd $opt_net 
+
+echo "########################### start opt_sim #########################"
+echo " "
+pwd
+echo "opt_sim: $opt_sim"
+echo " "
+
 ./run -u $opt_sim
 
 
